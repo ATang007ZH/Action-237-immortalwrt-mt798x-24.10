@@ -15,6 +15,7 @@ name: Build immortalwrt23.05 AP JCG-Q30Pro
 on:
   repository_dispatch:
   workflow_dispatch:
+  push:
     branches:
       - "23.05"
       
