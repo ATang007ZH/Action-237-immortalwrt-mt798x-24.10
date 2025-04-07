@@ -15,8 +15,6 @@ name: Build immortalwrt23.05 AP JCG-Q30Pro
 on:
   repository_dispatch:
   workflow_dispatch:
-    branches:
-      - "23.05"
       
 env:
   REPO_URL: https://github.com/padavanonly/immortalwrt-mt798x-23.05
